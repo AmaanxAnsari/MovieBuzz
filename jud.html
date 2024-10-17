@@ -1,108 +1,138 @@
 <html>
-<html>
-<head>
-<title>PlanetM</title>
-<style>
-body{background-color:#151513;}
-.button{
-    background-color:red;
-    border: none;
-    color: white;
-    padding:10px;
-    text-align: center;
-    display: inline-block;
-    font-size: 10px;
-    margin: 5px 2px;
-    cursor: pointer;
-    border-radius: 6px;
+  <html>
+    <head>
+      <title>PlanetM</title>
+      <style>
+        body {
+          background-color: #151513;
+        }
+        .button {
+          background-color: red;
+          border: none;
+          color: white;
+          padding: 10px;
+          text-align: center;
+          display: inline-block;
+          font-size: 10px;
+          margin: 5px 2px;
+          cursor: pointer;
+          border-radius: 6px;
+        }
 
-}
+        .menu {
+          padding: 140px 0px 0px 150px;
+        }
 
-.menu{
-padding:140px 0px 0px 150px;
+        /* link color */
 
-}
+        header ul li a:link,
+        a:visited {
+          background-color: black;
+          color: white;
+          padding: 14px 25px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+        }
 
-/* link color */
+        a:hover,
+        a:active {
+          background-color: 35dade2;
+          border-radius: 5px;
+        }
 
-header ul li a:link, a:visited{
-  background-color:black;
-  color:white;
-padding: 14px 25px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
+        /* link color end */
 
-}
+        /* list horizontal */
 
-a:hover, a:active{
-background-color: 35dade2 ;
-border-radius:5px;
-}
+        header nav ul li {
+          float: left;
+        }
 
-/* link color end */
+        /* list horizontal end */
+      </style>
+    </head>
 
-/* list horizontal */
+    <body>
+      <header
+        style="
+          height: 210px;
+          background-color: black;
+          margin-left: 100px;
+          margin-right: 100px;
+        "
+      >
+        <div>
+          <ul
+            type="none"
+            style="
+              color: white;
+              padding: 15px 0px 0px 150px;
+              float: left;
+              clear: both;
+            "
+          >
+            <li style="font-size: 40px">PlanetM</li>
+            <li>Movies And More</li>
+          </ul>
 
-header nav ul li{
-float:left;
-}
+          <form
+            style="
+              float: right;
+              padding: 40px 0px 100px 150px;
+              margin-right: 100px;
+            "
+          >
+            <input type="text" placeholder="Enter Text" style="padding: 5px" />
+            <button class="button">search</button>
+          </form>
+        </div>
+        <nav>
+          <ul type="none" class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
 
-/* list horizontal end */
+        <div
+          style="
+            width: 1000px;
+            height: 315px;
+            border: 1px solid black;
+            background: black;
+            color: white;
+            position: bottom;
+            margin: 100px 0px 0px 100px;
+          "
+        >
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/DDwbjWCgxVM"
+            frameborder="0"
+            gesture="media"
+            allow="encrypted-media"
+            allowfullscreen
+          ></iframe>
+        </div>
 
+        <div
+          style="
+            width: 1000px;
+            height: 500px;
+            border: 1px solid black;
+            background: black;
+            color: white;
+            position: bottom;
+            margin: 100px 0px 0px 100px;
+          "
+        ></div>
+      </header>
 
-
-</style>
-</head>
-
-<body>
-
-<header style="height:210px; background-color:black; margin-left:100px; margin-right:100px;">
-
-<div>
-
-<ul type="none" style="color:white; padding:15px 0px 0px 150px; float:left; clear:both;">
-<li style="font-size:40px;">PlanetM</li>
-<li>Movies And More</li>
-
-
-</ul>
-
-<form style="float:right; padding: 40px 0px 100px 150px; margin-right:100px">
-<input type="text" placeholder="Enter Text" style="padding: 5px;">
-<button class="button">search</button>
-</form>
-
-</div>
-<nav>
-<ul type="none" class="menu">
-<li><a href="home.html">Home</a></li>
-<li><a href="movies.html">Movies</a></li>
-<li><a href="contact.html">Contact</a></li>
-<li><a href="about.html">About</a></li>
-</ul>
-
-</nav>
-
-<div  style="width:1000px; height:315px; border:1px solid black; background:black;
- color:white;position:bottom;
-margin:100px 0px 0px 100px;">
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DDwbjWCgxVM" 
-frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-
-</div>
-
-
-<div  style="width:1000px; height:500px; border:1px solid black; background:black;
- color:white;position:bottom;
-margin:100px 0px 0px 100px;">
-
-</div>
-</header>
-
-
-<footer style="position:bottom;
+      <footer
+        style="position:bottom;
   bottom: 0;
   width:1500px;
   background-color:black;
@@ -113,17 +143,15 @@ margin-right:100px;*/
 clear;
 height:75px;
 margin-top:1000px;
-">
-
-<div>
-
-<p style="    margin-top:31px;padding-top:25px;"> Copyright powered by
-<a href="https://in.bookmyshow.com/">Amaan</a> 2017-2018</p>
-
-</div>
-
-</footer>
-
-
-</body>
+"
+      >
+        <div>
+          <p style="margin-top: 31px; padding-top: 25px">
+            Copyright powered by
+            <a href="https://in.bookmyshow.com/">Amaan</a> 2017-2018
+          </p>
+        </div>
+      </footer>
+    </body>
+  </html>
 </html>

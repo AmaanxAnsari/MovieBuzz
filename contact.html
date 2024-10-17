@@ -1,155 +1,193 @@
 <html>
-<html>
-<head>
-<title>PlanetM</title>
-<style>
-body{background-color:#151513;}
-.button{
-    background-color:red;
-    border: none;
-    color: white;
-    padding:10px;
-    text-align: center;
-    display: inline-block;
-    font-size: 10px;
-    margin: 5px 2px;
-    cursor: pointer;
-    border-radius: 6px;
+  <html>
+    <head>
+      <title>PlanetM</title>
+      <style>
+        body {
+          background-color: #151513;
+        }
+        .button {
+          background-color: red;
+          border: none;
+          color: white;
+          padding: 10px;
+          text-align: center;
+          display: inline-block;
+          font-size: 10px;
+          margin: 5px 2px;
+          cursor: pointer;
+          border-radius: 6px;
+        }
 
-}
+        .menu {
+          padding: 140px 0px 0px 150px;
+        }
 
-.menu{
-padding:140px 0px 0px 150px;
+        /* link color */
 
-}
+        header ul li a:link,
+        a:visited {
+          background-color: black;
+          color: white;
+          padding: 14px 25px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+        }
 
-/* link color */
+        a:hover,
+        a:active {
+          background-color: 35dade2;
+          border-radius: 5px;
+        }
 
-header ul li a:link, a:visited{
-  background-color:black;
-  color:white;
-padding: 14px 25px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
+        /* link color end */
 
-}
+        /* list horizontal */
 
-a:hover, a:active{
-background-color: 35dade2 ;
-border-radius:5px;
-}
+        header nav ul li {
+          float: left;
+        }
 
-/* link color end */
+        /* list horizontal end */
 
-/* list horizontal */
+        .details {
+          width: 300px;
+          height: 400px;
+          padding: 10px;
+          background: white;
+          float: right;
+          margin-top: 20px;
+        }
 
-header nav ul li{
-float:left;
-}
+        .details input[type="text"],
+        [type="text"],
+        [type="number"],
+        [type="email"],
+        [type="date"] {
+          width: 100%;
+          padding: 10px;
+          margin: 10px 0px;
+        }
 
-/* list horizontal end */
+        .details input[type="submit"] {
+          padding: 10px 20px;
+          font-size: 20px;
+          background: black;
+          color: white;
+          margin-top: 20px;
+        }
+      </style>
+    </head>
 
+    <body>
+      <header
+        style="
+          height: 210px;
+          background-color: black;
+          margin-left: 100px;
+          margin-right: 100px;
+        "
+      >
+        <div>
+          <ul
+            type="none"
+            style="
+              color: white;
+              padding: 15px 0px 0px 150px;
+              float: left;
+              clear: both;
+            "
+          >
+            <li style="font-size: 40px">PlanetM</li>
+            <li>Movies And More</li>
+          </ul>
 
-.details{width:300px; height:400px; padding:10px; 
-background:white;
-float:right;
-margin-top:20px}
+          <form
+            style="
+              float: right;
+              padding: 40px 0px 100px 150px;
+              margin-right: 100px;
+            "
+          >
+            <input type="text" placeholder="Enter Text" style="padding: 5px" />
+            <button class="button">search</button>
+          </form>
+        </div>
+        <nav>
+          <ul type="none" class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        <div
+          style="
+            width: 1000px;
+            height: 300px;
+            border: 1px solid black;
+            background: black;
+            color: white;
+            margin: 100px 0px 0px 100px;
+          "
+        >
+          <marquee
+            direction="left"
+            behaviour="scroll"
+            scrollamount="10"
+            width="1000px"
+            height="400px"
+          >
+            <a href="#"><img src="image\bad.jpg" height="300px" /></a>
+            <a href="#"><img src="image\bvs.jpg" height="300px" /></a>
+            <a href="#"><img src="image\cap.jpg" height="300px" /></a>
+            <a href="#"><img src="image\bho.jpg" height="300px" /></a>
+            <a href="#"><img src="image\dhing.jpg" height="300px" /></a>
+            <a href="#"><img src="image\shot.jpg" height="300px" /></a>
+            <a href="#"><img src="image\spi.jpg" height="300px" /></a>
+            <a href="#"><img src="image\sul.jpg" height="300px" /></a>
+          </marquee>
+        </div>
+      </header>
 
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d120969.76120930274!2d73.6744486380568!3d18.650302855434873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stheaters+in+pune!5e0!3m2!1sen!2sin!4v1512639011238"
+          width="600"
+          height="450"
+          frameborder="0"
+          style="border: 0; padding: ; margin-top: 400px; margin-left: 200px"
+          allowfullscreen
+        ></iframe>
 
+        <form
+          class="details"
+          style="
+            margin-top: -450px;
+            margin-right: 300px;
+            background-color: black;
+            height: 430px;
+          "
+        >
+          <input type="text" placeholder="Enter Name" />
 
+          <input type="text" placeholder="Address" />
 
-.details input[type="text"],[type="text"],[type="number"],[type="email"],[type="date"]{width:100%; padding:10px;
-margin:10px 0px;
+          <input type="number" placeholder="Enter Mobile" />
 
-}
+          <input type="email" placeholder="Enter Email" />
 
+          <input type="date" />
 
-.details input[type="submit"]{padding:10px 20px; font-size:20px;background:black; color:white;
-margin-top:20px;
-
-}
-
-
-
-
-</style>
-</head>
-
-<body>
-
-<header style="height:210px; background-color:black; margin-left:100px; margin-right:100px;">
-
-<div>
-
-<ul type="none" style="color:white; padding:15px 0px 0px 150px; float:left; clear:both;">
-<li style="font-size:40px;">PlanetM</li>
-<li>Movies And More</li>
-
-
-</ul>
-
-<form style="float:right; padding: 40px 0px 100px 150px; margin-right:100px">
-<input type="text" placeholder="Enter Text" style="padding: 5px;">
-<button class="button">search</button>
-</form>
-
-</div>
-<nav>
-<ul type="none" class="menu">
-<li><a href="home.html">Home</a></li>
-<li><a href="movies.html">Movies</a></li>
-<li><a href="contact.html">Contact</a></li>
-<li><a href="about.html">About</a></li>
-</ul>
-</nav>
-<div  style="width:1000px; height:300px; border:1px solid black; background:black;
- color:white;
-margin:100px 0px 0px 100px;">
-
-<marquee direction="left" behaviour="scroll" scrollamount="10" width="1000px" height="400px">
-<a href="#"><img src="image\bad.jpg" height="300px"></a>
-<a href="#"><img src="image\bvs.jpg" height="300px"></a>
-<a href="#"><img src="image\cap.jpg" height="300px"></a>
-<a href="#"><img src="image\bho.jpg" height="300px"></a>
-<a href="#"><img src="image\dhing.jpg" height="300px"></a>
-<a href="#"><img src="image\shot.jpg" height="300px"></a>
-<a href="#"><img src="image\spi.jpg" height="300px"></a>
-<a href="#"><img src="image\sul.jpg" height="300px"></a>
-
-</marquee>
-
-</div>
-
-
-
-</header>
-
-<div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d120969.76120930274!2d73.6744486380568!3d18.650302855434873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stheaters+in+pune!5e0!3m2!1sen!2sin!4v1512639011238" width="600" height="450" frameborder="0" 
-style="border:0;padding:;margin-top:400px;margin-left:200px;" allowfullscreen></iframe>
-
-
-<form class="details" style="
-    margin-top: -450px;
-    margin-right: 300px;background-color:black;height:430px;">
-<input type="text" placeholder="Enter Name">
-
-<input type="text" placeholder="Address">
-
-<input type="number" placeholder="Enter Mobile">
-
-<input type="email" placeholder="Enter Email">
-
-<input type="date">
-
-<center style="margin-top:20px;">
-<input type="submit" value="Submit">
-</center>
-</form>
-</div>
-<div class="clearfix"></div>
-<footer style="position:bottom;
+          <center style="margin-top: 20px">
+            <input type="submit" value="Submit" />
+          </center>
+        </form>
+      </div>
+      <div class="clearfix"></div>
+      <footer
+        style="position:bottom;
   bottom: 0;
   width:1500px;
   background-color:black;
@@ -160,17 +198,15 @@ margin-right:100px;*/
 clear;
 height:75px;
 margin-top:275px;
-">
-
-<div>
-
-<p style="    margin-top:31px;padding-top:25px;"> Copyright powered by
-<a href="https://in.bookmyshow.com/">Amaan</a> 2017-2018</p>
-
-</div>
-
-</footer>
-
-
-</body>
+"
+      >
+        <div>
+          <p style="margin-top: 31px; padding-top: 25px">
+            Copyright powered by
+            <a href="https://in.bookmyshow.com/">Amaan</a> 2017-2018
+          </p>
+        </div>
+      </footer>
+    </body>
+  </html>
 </html>

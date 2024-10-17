@@ -1,175 +1,277 @@
 <html>
-<html>
-<head>
-<title>PlanetM</title>
-<style>
-body{background-color:#151513;}
-.button{
-    background-color:red;
-    border: none;
-    color: white;
-    padding:10px;
-    text-align: center;
-    display: inline-block;
-    font-size: 10px;
-    margin: 5px 2px;
-    cursor: pointer;
-    border-radius: 6px;
+  <html>
+    <head>
+      <title>PlanetM</title>
+      <style>
+        body {
+          background-color: #151513;
+        }
+        .button {
+          background-color: red;
+          border: none;
+          color: white;
+          padding: 10px;
+          text-align: center;
+          display: inline-block;
+          font-size: 10px;
+          margin: 5px 2px;
+          cursor: pointer;
+          border-radius: 6px;
+        }
 
-}
+        .menu {
+          padding: 140px 0px 0px 150px;
+        }
 
-.menu{
-padding:140px 0px 0px 150px;
+        /* link color */
 
-}
+        header ul li a:link,
+        a:visited {
+          background-color: black;
+          color: white;
+          padding: 14px 25px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+        }
 
-/* link color */
+        a:hover,
+        a:active {
+          background-color: 35dade2;
+          border-radius: 5px;
+        }
 
-header ul li a:link, a:visited{
-  background-color:black;
-  color:white;
-padding: 14px 25px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
+        /* link color end */
 
-}
+        /* list horizontal */
 
-a:hover, a:active{
-background-color: 35dade2 ;
-border-radius:5px;
-}
+        header nav ul li {
+          float: left;
+        }
 
-/* link color end */
+        /* list horizontal end */
+      </style>
+    </head>
 
-/* list horizontal */
+    <body>
+      <header
+        style="
+          height: 210px;
+          background-color: black;
+          margin-left: 100px;
+          margin-right: 100px;
+        "
+      >
+        <div>
+          <ul
+            type="none"
+            style="
+              color: white;
+              padding: 15px 0px 0px 150px;
+              float: left;
+              clear: both;
+            "
+          >
+            <li style="font-size: 40px">PlanetM</li>
+            <li>Movies And More</li>
+          </ul>
 
-header nav ul li{
-float:left;
-}
+          <form
+            style="
+              float: right;
+              padding: 40px 0px 100px 150px;
+              margin-right: 100px;
+            "
+          >
+            <input type="text" placeholder="Enter Text" style="padding: 5px" />
+            <button class="button">search</button>
+          </form>
+        </div>
+        <nav>
+          <ul type="none" class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        <div
+          style="
+            width: 1000px;
+            height: 300px;
+            border: 1px solid black;
+            background: black;
+            color: white;
+            margin: 100px 0px 0px 100px;
+          "
+        >
+          <marquee
+            direction="left"
+            behaviour="scroll"
+            scrollamount="10"
+            width="1000px"
+            height="400px"
+          >
+            <a href="tiger.html"
+              ><img src="image\tiger.jpg" height="300px"
+            /></a>
+            <a href="thor.html"><img src="image\thor.jpg" height="300px" /></a>
+            <a href="justice.html"
+              ><img src="image\justice.jpg" height="300px"
+            /></a>
+            <a href="dj.html"><img src="image\dj.jpg" height="300px" /></a>
+            <a href="firangi.html"
+              ><img src="image\firangi.jpg" height="300px"
+            /></a>
+            <a href="fukrey.html"
+              ><img src="image\fukrey.jpg" height="300px"
+            /></a>
+            <a href="faster.html"
+              ><img src="image\faster.jpg" height="300px"
+            /></a>
+            <a href="sullu.html"
+              ><img src="image\sullu.jpg" height="300px"
+            /></a>
+          </marquee>
+        </div>
 
-/* list horizontal end */
+        <div
+          style="
+            width: 1000px;
+            height: 300px;
+            border: 1px solid black;
+            background: black;
+            color: white;
+            margin: 100px 0px 0px 100px;
+          "
+        >
+          <a href="shaadi.html"
+            ><img src="image\shaadi.jpg" height="300px"
+          /></a>
+          <a href="qarib.html"
+            ><img
+              src="image\qarib.jpg"
+              height="300px"
+              style="margin-left: 52px"
+          /></a>
+          <a href="again.html"
+            ><img
+              src="image\again.jpg"
+              height="300px"
+              style="margin-left: 52px"
+          /></a>
+          <a href="secret.html"
+            ><img
+              src="image\secret.jpg"
+              height="300px"
+              style="margin-left: 50px"
+          /></a>
+        </div>
 
+        <div
+          style="
+            width: 1000px;
+            height: 300px;
+            border: 1px solid black;
+            background: black;
+            color: white;
+            margin: 100px 0px 0px 100px;
+          "
+        >
+          <a href="funda.html"><img src="image\funda.jpg" height="300px" /></a>
+          <a href="dash.html"
+            ><img src="image\dash.jpg" height="300px" style="margin-left: 70px"
+          /></a>
+          <a href="boyz.html"
+            ><img src="image\boyz.jpg" height="300px" style="margin-left: 68px"
+          /></a>
+          <a href="sai.html"
+            ><img src="image\sai.jpg" height="300px" style="margin-left: 66px"
+          /></a>
+        </div>
 
+        <div
+          style="
+            width: 1000px;
+            height: 300px;
+            border: 1px solid black;
+            background: black;
+            color: white;
+            margin: 100px 0px 0px 100px;
+          "
+        >
+          <a href="coco.html"><img src="image\coco.jpg" height="300px" /></a>
+          <a href="wonder.html"
+            ><img
+              src="image\wonder.jpg"
+              height="300px"
+              style="margin-left: 54px"
+          /></a>
+          <a href="it.html"
+            ><img src="image\it.jpg" height="300px" style="margin-left: 54px"
+          /></a>
+          <a href="ana.html"
+            ><img src="image\ana.jpg" height="300px" style="margin-left: 54px"
+          /></a>
+        </div>
 
-</style>
-</head>
+        <div
+          style="
+            width: 1000px;
+            height: 300px;
+            border: 1px solid black;
+            background: black;
+            color: white;
+            margin: 100px 0px 0px 100px;
+          "
+        >
+          <a href="rich.html"><img src="image\rich.jpg" height="300px" /></a>
+          <a href="gar.html"
+            ><img src="image\gar.jpg" height="300px" style="margin-left: 40px"
+          /></a>
+          <a href="rob.html"
+            ><img src="image\rob.jpg" height="300px" style="margin-left: 38px"
+          /></a>
+          <a href="saho.html"
+            ><img src="image\saho.jpg" height="300px" style="margin-left: 25px"
+          /></a>
+        </div>
 
-<body>
+        <a href="index.html"
+          ><button
+            type="submit"
+            style="
+              float: right;
+              margin-right: 100px;
+              margin-top: 20px;
+              background-color: black;
+              color: white;
+              border-radius: 15%;
+            "
+          >
+            Home
+          </button></a
+        >
 
-<header style="height:210px; background-color:black; margin-left:100px; margin-right:100px;">
+        <a href="2.html"
+          ><button
+            type="submit"
+            style="
+              float: left;
+              margin-left: 50px;
+              margin-top: 20px;
+              background-color: black;
+              color: white;
+              border-radius: 15%;
+            "
+          >
+            Previous
+          </button></a
+        >
+      </header>
 
-<div>
-
-<ul type="none" style="color:white; padding:15px 0px 0px 150px; float:left; clear:both;">
-<li style="font-size:40px;">PlanetM</li>
-<li>Movies And More</li>
-
-
-</ul>
-
-<form style="float:right; padding: 40px 0px 100px 150px; margin-right:100px">
-<input type="text" placeholder="Enter Text" style="padding: 5px;">
-<button class="button">search</button>
-</form>
-
-</div>
-<nav>
-<ul type="none" class="menu">
-<li><a href="home.html">Home</a></li>
-<li><a href="movies.html">Movies</a></li>
-<li><a href="contact.html">Contact</a></li>
-<li><a href="about.html">About</a></li>
-</ul>
-</nav>
-<div  style="width:1000px; height:300px; border:1px solid black; background:black;
- color:white;
-margin:100px 0px 0px 100px;">
-
-<marquee direction="left" behaviour="scroll" scrollamount="10" width="1000px" height="400px">
-<a href="tiger.html"><img src="image\tiger.jpg" height="300px"></a>
-<a href="thor.html"><img src="image\thor.jpg" height="300px"></a>
-<a href="justice.html"><img src="image\justice.jpg" height="300px"></a>
-<a href="dj.html"><img src="image\dj.jpg" height="300px"></a>
-<a href="firangi.html"><img src="image\firangi.jpg" height="300px"></a>
-<a href="fukrey.html"><img src="image\fukrey.jpg" height="300px"></a>
-<a href="faster.html"><img src="image\faster.jpg" height="300px"></a>
-<a href="sullu.html"><img src="image\sullu.jpg" height="300px"></a>
-
-</marquee>
-
-</div>
-
-
-
-
-
-<div  style="width:1000px; height:300px; border:1px solid black; background:black;
- color:white;
-margin:100px 0px 0px 100px;">
-
-<a href="shaadi.html"><img src="image\shaadi.jpg" height="300px"></a>
-<a href="qarib.html"><img src="image\qarib.jpg" height="300px"style="margin-left:52px;"></a>
-<a href="again.html"><img src="image\again.jpg" height="300px"style="margin-left:52px;"></a>
-<a href="secret.html"><img src="image\secret.jpg" height="300px"style="margin-left:50px;"></a>
-
-
-</div>
-
-
-
-
-<div  style="width:1000px; height:300px; border:1px solid black; background:black;
- color:white;
-margin:100px 0px 0px 100px;">
-
-<a href="funda.html"><img src="image\funda.jpg" height="300px"></a>
-<a href="dash.html"><img src="image\dash.jpg" height="300px"style="margin-left:70px;"></a>
-<a href="boyz.html"><img src="image\boyz.jpg" height="300px"style="margin-left:68px;"></a>
-<a href="sai.html"><img src="image\sai.jpg" height="300px"style="margin-left:66px;"></a>
-
-</div>
-
-<div  style="width:1000px; height:300px; border:1px solid black; background:black;
- color:white;
-margin:100px 0px 0px 100px;">
-
-<a href="coco.html"><img src="image\coco.jpg" height="300px"></a>
-<a href="wonder.html"><img src="image\wonder.jpg" height="300px"style="margin-left:54px;"></a>
-<a href="it.html"><img src="image\it.jpg" height="300px"style="margin-left:54px;"></a>
-<a href="ana.html"><img src="image\ana.jpg" height="300px"style="margin-left:54px;"></a>
-
-</div>
-
-
-
-
-
-<div  style="width:1000px; height:300px; border:1px solid black; background:black;
- color:white;
-margin:100px 0px 0px 100px;">
-
-<a href="rich.html"><img src="image\rich.jpg" height="300px"></a>
-<a href="gar.html"><img src="image\gar.jpg" height="300px"style="margin-left:40px;"></a>
-<a href="rob.html"><img src="image\rob.jpg" height="300px"style="margin-left:38px;"></a>
-<a href="saho.html"><img src="image\saho.jpg" height="300px"style="margin-left:25px;"></a>
-
-</div>
-
-
-
-<a href="home.html"><button type="submit"style="float:right;margin-right:100px;margin-top:20px;
-background-color:black;color:white;border-radius:15%;">Home</button></a>
-
-
-<a href="2.html"><button type="submit"style="float:left;margin-left:50px;margin-top:20px;
-background-color:black;color:white;border-radius:15%;">Previous</button></a>
-
-
-</header>
-
-
-<footer style="position:bottom;
+      <footer
+        style="position:bottom;
   bottom: 0;
   width:1500px;
   background-color:black;
@@ -180,17 +282,15 @@ margin-right:100px;*/
 clear;
 height:75px;
 margin-top:2000px;
-">
-
-<div>
-
-<p style="    margin-top:31px;padding-top:25px;"> Copyright powered by
-<a href="https://in.bookmyshow.com/">Amaan</a> 2017-2018</p>
-
-</div>
-
-</footer>
-
-
-</body>
+"
+      >
+        <div>
+          <p style="margin-top: 31px; padding-top: 25px">
+            Copyright powered by
+            <a href="https://in.bookmyshow.com/">Amaan</a> 2017-2018
+          </p>
+        </div>
+      </footer>
+    </body>
+  </html>
 </html>

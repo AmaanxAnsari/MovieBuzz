@@ -1,216 +1,215 @@
 <html>
-<head>
-<style>
-.body{background-color:gray;color:white;}
-.table tbody tr td:not(:first-child){
-border:1px solid black;
-width:1em;
-height:1em;
-}
-.table tbody tr td;first-child{
-font-weight:bold;
-}
+  <head>
+    <style>
+      .body {
+        background-color: gray;
+        color: white;
+      }
+      .table tbody tr td:not(:first-child) {
+        border: 1px solid black;
+        width: 1em;
+        height: 1em;
+      }
+      .table tbody tr td;
+      first-child {
+        font-weight: bold;
+      }
 
-.table tr td:nth-child(5){
-border:none;
-}
+      .table tr td:nth-child(5) {
+        border: none;
+      }
 
-.table{
-border-spacing:3em;}
+      .table {
+        border-spacing: 3em;
+      }
+    </style>
+  </head>
+  <body style="background-color: gray">
+    <table class="table">
+      <thead>
+        <tr>
+          <td></td>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td></td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>A</td>
+          <td style="background-color: red"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="background-color: red"></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>C</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>D</td>
+          <td></td>
+          <td></td>
+          <td style="background-color: blue"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="background-color: blue"></td>
+        </tr>
+      </tbody>
+    </table>
 
-</style>
-</head>
-<body style="background-color:gray;">
-<table class="table">
-<thead>
-<tr>
-<td></td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td></td>
-<td>4</td>
-<td>5</td>
-<td>6</td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>A</td>
-<td style="background-color:red;"></td>
-<td></td>
-<td></td>
-<td></td>
-<td style="background-color:red;"></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>C</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>D</td>
-<td></td>
-<td></td>
-<td style="background-color:blue;"></td>
-<td></td>
-<td></td>
-<td></td>
-<td style="background-color:blue;"></td>
-</tr>
-</tbody>
-</table>
+    <table class="table" style="float: right">
+      <thead>
+        <tr>
+          <td></td>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td></td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>E</td>
+          <td style="background-color: red"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="background-color: red"></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>F</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>G</td>
+          <td></td>
+          <td></td>
+          <td style="background-color: blue"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="background-color: blue"></td>
+        </tr>
+      </tbody>
+    </table>
 
-
-
-<table class="table" style="float:right;">
-<thead>
-<tr>
-<td></td>
-<td>7</td>
-<td>8</td>
-<td>9</td>
-<td></td>
-<td>10</td>
-<td>11</td>
-<td>12</td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>E</td>
-<td style="background-color:red;"></td>
-<td></td>
-<td></td>
-<td></td>
-<td style="background-color:red;"></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>F</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>G</td>
-<td></td>
-<td></td>
-<td style="background-color:blue;"></td>
-<td></td>
-<td></td>
-<td></td>
-<td style="background-color:blue;"></td>
-</tr>
-</tbody>
-</table>
-
-
-
-
-<table class="table" style="float:right;">
-<thead>
-<tr>
-<td></td>
-<td>7</td>
-<td>8</td>
-<td>9</td>
-<td></td>
-<td>10</td>
-<td>11</td>
-<td>12</td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>E</td>
-<td style="background-color:red;"></td>
-<td></td>
-<td></td>
-<td></td>
-<td style="background-color:red;"></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>F</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>G</td>
-<td></td>
-<td></td>
-<td style="background-color:blue;"></td>
-<td></td>
-<td></td>
-<td></td>
-<td style="background-color:blue;"></td>
-</tr>
-</tbody>
-</table>
-<table class="table">
-<thead>
-<tr>
-<td></td>
-<td>7</td>
-<td>8</td>
-<td>9</td>
-<td></td>
-<td>10</td>
-<td>11</td>
-<td>12</td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>E</td>
-<td style="background-color:red;"></td>
-<td></td>
-<td></td>
-<td></td>
-<td style="background-color:red;"></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>F</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>G</td>
-<td></td>
-<td></td>
-<td style="background-color:blue;"></td>
-<td></td>
-<td></td>
-<td></td>
-<td style="background-color:blue;"></td>
-</tr>
-</tbody>
-</table>
-</body>
+    <table class="table" style="float: right">
+      <thead>
+        <tr>
+          <td></td>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td></td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>E</td>
+          <td style="background-color: red"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="background-color: red"></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>F</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>G</td>
+          <td></td>
+          <td></td>
+          <td style="background-color: blue"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="background-color: blue"></td>
+        </tr>
+      </tbody>
+    </table>
+    <table class="table">
+      <thead>
+        <tr>
+          <td></td>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td></td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>E</td>
+          <td style="background-color: red"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="background-color: red"></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>F</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>G</td>
+          <td></td>
+          <td></td>
+          <td style="background-color: blue"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="background-color: blue"></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
